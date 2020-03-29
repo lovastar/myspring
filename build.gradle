@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'myspring'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenLocal()
+    maven { url "http://nexus.zj.chinamobile.com:8081/nexus/content/repositories/maven_public/" }
+    maven { url "http://nexus.zj.chinamobile.com:8081/nexus/content/groups/public/" }
+    jcenter()
+}
+
+dependencies {
+    compile group: 'org.springframework', name: 'spring-context-support', version: '5.2.2.RELEASE'
+}
