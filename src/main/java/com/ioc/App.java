@@ -4,20 +4,24 @@ package com.ioc;/*
 @Date:2020/3/26 17:48
 */
 
+import org.omg.CORBA.Environment;
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import java.util.Map;
+import java.util.Properties;
 import java.util.Stack;
 
-@ComponentScan("com.ioc")
+//@ComponentScan("com.ioc")
 public class App {
+
     public static void main(String[] args) throws Exception{
-        ApplicationContext ac = new AnnotationConfigApplicationContext(App.class);
-        String[] beans = ac.getBeanDefinitionNames();
-        for (String bean : beans) {
-            System.out.println(bean);
-        }
+       // ApplicationContext ac = new AnnotationConfigApplicationContext("com.ioc");
+  //     ApplicationContext ac = new ClassPathXmlApplicationContext("classpath:application-dev.xml");
+//        String[] beans = ac.getBeanDefinitionNames();
+//        for (String bean : beans) {
+//            System.out.println(bean);
+//        }
     }
 
 }
