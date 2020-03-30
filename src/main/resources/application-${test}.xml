@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd" default-autowire="byName">
+
+    <bean id="app" class="com.ioc.App"/>
+    <bean id = "propertySourcesPlaceholderConfigurer" class="org.springframework.context.support.PropertySourcesPlaceholderConfigurer">
+        <property name="location" value="classpath:student.properties"></property>
+    </bean>
+    <bean id = "student" class="com.ioc.content.Student">
+        <property name="stuId" value="${stuId}"></property>
+        <property name="stuName" value="${stuName}"></property>
+
+    </bean>
+</beans>

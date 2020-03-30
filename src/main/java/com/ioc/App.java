@@ -7,6 +7,7 @@ package com.ioc;/*
 import org.omg.CORBA.Environment;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.core.io.Resource;
 
 import java.util.Map;
 import java.util.Properties;
@@ -17,11 +18,11 @@ public class App {
 
     public static void main(String[] args) throws Exception{
        // ApplicationContext ac = new AnnotationConfigApplicationContext("com.ioc");
-  //     ApplicationContext ac = new ClassPathXmlApplicationContext("classpath:application-dev.xml");
-//        String[] beans = ac.getBeanDefinitionNames();
-//        for (String bean : beans) {
-//            System.out.println(bean);
-//        }
+   ApplicationContext ac = new ClassPathXmlApplicationContext(new String[] {"classpath:application-${test}.xml"},true,null);
+        String[] beans = ac.getBeanDefinitionNames();
+        for (String bean : beans) {
+            System.out.println(bean);
+        }
     }
 
 }

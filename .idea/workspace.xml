@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf37c867-08ae-41c1-bba9-029aa3a30141" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-${test}.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/student.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
@@ -11,14 +11,18 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/ioc/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/ioc/App.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/ioc/content/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/ioc/content/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/application-dev.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ioc/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ioc/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ioc/content/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ioc/content/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.xml" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,11 +70,16 @@
   </component>
   <component name="ProjectId" id="1ZYS8WHK8wdcprDeT1wYeErOoga" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -90,19 +99,20 @@
       <command value="gradle buildDependents" />
     </option>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Application.App (1)">
+    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ioc.App" />
+      <module name="myspring.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ioc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ioc.App" />
       <module name="myspring" />
@@ -163,8 +173,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App02" />
         <item itemvalue="Application.App (1)" />
+        <item itemvalue="Application.App02" />
         <item itemvalue="Application.App" />
         <item itemvalue="Gradle.myspring [buildDependents]" />
       </list>
@@ -195,11 +205,71 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="488" y="62" key="#com.intellij.ide.util.MemberChooser" timestamp="1585567551110">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="488" y="62" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1585567551110" />
+    <state x="438" y="77" key="#xdebugger.evaluate" timestamp="1585578968251">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="438" y="77" key="#xdebugger.evaluate/0.0.1366.738@0.0.1366.738" timestamp="1585578968251" />
+    <state width="480" height="466" key="DebuggerActiveHint" timestamp="1585579236459">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="480" height="466" key="DebuggerActiveHint/0.0.1366.738@0.0.1366.738" timestamp="1585579236459" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1585579452756">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1585579452756" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1585579452756">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1585579452756" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1585579452756">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1585579452756" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1585579452756">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1585579452756" />
+    <state width="1323" height="179" key="GridCell.Tab.1.bottom" timestamp="1585579452757">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1585579452757" />
+    <state width="1323" height="179" key="GridCell.Tab.1.center" timestamp="1585579452757">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1585579452757" />
+    <state width="1323" height="179" key="GridCell.Tab.1.left" timestamp="1585579452757">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1585579452757" />
+    <state width="1323" height="179" key="GridCell.Tab.1.right" timestamp="1585579452757">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1585579452757" />
+    <state width="691" height="377" key="XDebugger.FullValuePopup" timestamp="1585568643158">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="691" height="377" key="XDebugger.FullValuePopup/0.0.1366.738@0.0.1366.738" timestamp="1585568643158" />
+    <state x="370" y="124" width="626" height="490" key="find.popup" timestamp="1585567295095">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="370" y="124" width="626" height="490" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1585567295095" />
+    <state x="339" y="165" width="672" height="677" key="run.anything.popup" timestamp="1585568181548">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="339" y="165" width="672" height="677" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1585568181548" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -216,8 +286,28 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/ioc/App.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="14" />
+          <line>23</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.2.2.RELEASE/486f94bac043fcc72206fd28eb8571d6c55d7634/spring-core-5.2.2.RELEASE-sources.jar!/org/springframework/core/env/AbstractPropertyResolver.java</url>
+          <line>209</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.2.2.RELEASE/486f94bac043fcc72206fd28eb8571d6c55d7634/spring-core-5.2.2.RELEASE-sources.jar!/org/springframework/core/env/AbstractPropertyResolver.java</url>
+          <line>235</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.2.2.RELEASE/486f94bac043fcc72206fd28eb8571d6c55d7634/spring-core-5.2.2.RELEASE-sources.jar!/org/springframework/util/PropertyPlaceholderHelper.java</url>
+          <line>129</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.2.2.RELEASE/486f94bac043fcc72206fd28eb8571d6c55d7634/spring-core-5.2.2.RELEASE-sources.jar!/org/springframework/util/PropertyPlaceholderHelper.java</url>
+          <line>190</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
